@@ -1,12 +1,13 @@
 # r4 node project
 
 ## install dependancies
-npm install
+```npm install```
 
 ## install env
-copy env/dev and run it in the console
+```. env/dev.sh```
 
 ## start app
-node app.js
+```node app.js```
 
-
+## Open in browser
+http://localhost:2403/

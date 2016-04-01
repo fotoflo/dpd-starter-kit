@@ -15,7 +15,7 @@ request = require('request-promise');
 
 function init(config){
 
-  console.log("Welcome to dpd-texturner!  Config loaded!");
+  console.log("Welcome to Deployd!  Config loaded!");
 
   _.forEach(config, function(n, key){
     console.log(key, " : ",  n);
@@ -30,7 +30,7 @@ function init(config){
   dpd.listen();
 
   dpd.on('listening', function() {
-    console.log("Deployd is listening on port ", deploydOptions.port);
+    console.log("Deployd is listening on " + config.dpdServerRoot);
   });
 
   dpd.on('error', function(err) {
