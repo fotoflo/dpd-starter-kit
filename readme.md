@@ -6,6 +6,9 @@
 ## install env
 ```. env/dev.sh```
 
+## create key
+dpd keygen
+
 ## start app
 ```node app.js```
 
