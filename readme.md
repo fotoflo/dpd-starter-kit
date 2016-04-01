@@ -8,7 +8,7 @@ This project has everything you need to get started building on deployd
    .gitignore
    readme.md starter 
    and the dependancies you'll likely use to get started:
-   
+
   "dependencies": {
     "deployd": "^0.8.8",
     "dpd-event": "0.0.2",
@@ -21,6 +21,14 @@ This project has everything you need to get started building on deployd
   }
 
 
+## to start a new project:
+1) fork 
+2) remove git remote 
+git remote rm origin
+3) add git remote
+git remote add origin <YOUR NEW PROJECT's NAME>
+git push -u origin --all 
+git push -u origin --tags 
 
 
 ## install dependancies
