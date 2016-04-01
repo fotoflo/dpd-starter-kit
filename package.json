@@ -1,7 +1,7 @@
 {
-  "name": "r4-node",
-  "version": "1.0.0",
-  "description": "",
+  "name": "deployd-starter-kit",
+  "version": "0.1",
+  "description": "Fork me to get started with deployd fast",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,7 +13,6 @@
     "dpd-event": "0.0.2",
     "dpd-event-extension": "0.0.3",
     "dpd-jobs": "^0.14.0",
-    "facebook-ads-sdk": "git+ssh://git@github.com/lucascosta/facebook-js-ads-sdk.git",
     "getenv": "^0.6.0",
     "lodash": "^4.7.0",
     "moment": "^2.12.0",
